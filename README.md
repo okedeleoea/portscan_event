@@ -46,6 +46,11 @@ projects/
 2026-01-15 10:59:00: Port 80 (HTTP) changed to CLOSED
 2026-01-15 10:59:00: Port 443 (HTTPS) changed to CLOSED
 `
+<img width="720" height="1650" alt="1000229079" src="https://github.com/user-attachments/assets/916ad6b7-be44-475f-99d1-9b9c8465590a" />
+<img width="720" height="1650" alt="1000229066" src="https://github.com/user-attachments/assets/faf2f0b4-c702-47b3-b4dd-56362626a90c" />
+<img width="720" height="1650" alt="1000229034" src="https://github.com/user-attachments/assets/1f859d22-05a1-483a-9d67-d12914b02acd" />
+<img width="720" height="1650" alt="1000229026" src="https://github.com/user-attachments/assets/2282afb1-e77a-4b1a-9653-68c7a7705968" />
+
 
 ✨ Author
 Olanrewaju Emmanuel Okedele  
