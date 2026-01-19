@@ -1,13 +1,53 @@
-Portscan Event Monitor
+Python-Based Network Port Monitoring Tool
 
-A Python-based tool for monitoring changes in the status of common network ports.  
-Built and tested inside Termux/Kali Linux on Android.
+Overview
 
-📌 Features
-- Monitors common ports (SSH, HTTP, HTTPS, MySQL, Web)
-- Logs status changes (OPEN → CLOSED or CLOSED → OPEN) with timestamps
-- Event-driven logging system for real-time updates
-- Lightweight and portable — runs directly in Termux
+This project is a Python-based network port monitoring tool designed to continuously track the status of commonly used TCP ports and log real-time changes.
+
+The tool simulates a Security Operations Center (SOC) monitoring use case by detecting when services unexpectedly open or close on a host system.
+
+
+Why This Project Matters
+
+In real-world environments, attackers often expose new services or open ports after gaining access. Continuous monitoring helps security teams quickly detect these changes.
+
+This tool demonstrates:
+
+- Defensive security thinking
+- Python automation for cybersecurity
+- Real-time change detection
+- SOC-style monitoring logic
+
+
+Features
+
+- Monitors common TCP ports (e.g., 22, 80, 443, 3306)
+- Logs port status changes (OPEN ↔ CLOSED)
+- Runs in Linux and Termux environments
+- Lightweight and easy to extend
+
+Technologies Used
+
+- Python 3
+- Linux / Termux
+- Socket programming
+- Logging mechanisms
+
+Example Use Case
+
+- Detect unauthorized service exposure
+- Monitor system hardening effectiveness
+- Support incident response investigations
+- Baseline vs deviation analysis
+
+Skills Demonstrated
+
+- Python scripting for security
+- Network fundamentals
+- Continuous monitoring
+- Defensive cybersecurity practices
+- Linux command-line usage
+
 
 📂 Project Structure
 `
@@ -36,10 +76,6 @@ projects/
    tail -f logs/ports_event.log
    `
 
-🛠 Requirements
-- Python 3
-- Termux or any Linux environment
-
 📖 Example Output
 `
 2026-01-15 10:59:00: Port 22 (SSH) changed to CLOSED
@@ -51,7 +87,18 @@ projects/
 <img width="720" height="1650" alt="1000229034" src="https://github.com/user-attachments/assets/1f859d22-05a1-483a-9d67-d12914b02acd" />
 <img width="720" height="1650" alt="1000229026" src="https://github.com/user-attachments/assets/2282afb1-e77a-4b1a-9653-68c7a7705968" />
 
+Future Improvements
 
+- Email or Telegram alerts
+- JSON/CSV log export
+- Configurable port lists
+- Integration with SIEM tools
+
+---
 ✨ Author
 Olanrewaju Emmanuel Okedele  
 Learning by doing — exploring Linux, Python, and cybersecurity through hands-on projects.
+
+Disclaimer
+
+This tool is intended for educational and defensive security purposes only.
